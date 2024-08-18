@@ -1,0 +1,248 @@
+'<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - BuyBox</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+            <img src="img/logof.png" width="350px">
+            </div>
+                <nav>
+                    <ul id= MenuItems>
+                        <li><a href="BUYBOX.HTML">Home</a></li>
+                        <li><a href="Products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="card.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" 
+                onclick="menutoggle()">
+            </div>
+            <div class="small-container">
+                <div class="row row-2">
+                    <h2>All Products</h2>
+                    <select>
+                        <option>Default Sorting</option>
+                        <option> Sort by Price</option>
+                        <option>Sort by Popularity</option>
+                        <option>Sort by rating</option>
+                        <option>Sort by sale</option>
+                    </select>
+                </div>
+            <div class="row">
+            <div class="col-4">
+                <a href="product-details.html"><img src="img/product/product-1.jpeg"width="300px" height="450px"></a>
+                <a href="product-details.html"><h4>Printed Men Hooded Neck Blue T-Shirt</h4></a>
+                <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                </div>
+                <p>&#8377;899.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product2-details.html"><img src="img/product-2/product-21.jpeg"width="220px" height="450px"></a>
+                <a href="product2-details.html">  <h4>Women Orange Kurta with Trouser</h4></a>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>&#8377;1999.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product3_details.html"><img src="img/product-3/product-31.jpeg" height="450px"width="220px"></a>
+                <a href="product3_details.html"><h4>Running Shoes For Men  (white)</h4></a>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>&#8377;2999.00</p>   
+            </div>
+            <div class="col-4">
+                <a href="product4-details.html"><img src="img/product-4/product-41.jpeg" height="450px" width="250ox"></a>
+                <a href="product4-details.html"> <h4>Full Sleeve Solid Men Quilted Jacket</h4></a>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>&#8377;1299.00</p>  
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="product5-details.html"><img src="img/product-5/product-51.jpeg"></a>
+                <a href="product5-details.html"> <h4>Boult Audio Pro Bass Curve Pro Bluetooth Headset  (Grey, In the Ear)</h4></a>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>&#8377;1099.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product6-details.html"><img src="img/product-6/product-61.jpeg" width="70%" height="400px"></a>
+                <a href="product6-details.html"> <h4>Mi Smart Band 4  (Black Strap, Size : Regular)</h4></a>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>&#8377;600.00</p> 
+            </div>
+            <div class="col-4">
+                <a href="product7-details.html"><img src="img/product-7/product-71.jpeg" height="450px"></a>
+                <a href="product7-details.html"> <h4>Women Fit and Flare Blue Dress </h4></a>
+                 <div class="rating">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                     <i class="far fa-star"></i>
+                     <i class="far fa-star"></i>
+                 </div>                
+                 <p>&#8377;3640.00</p> 
+            </div>
+            <div class="col-4">
+                <a href="product8-details.html"><img src="img/product-8/product-81.jpeg" height="450px"></a>
+                <a href="product8-details.html"> <h4>Medium 30 L Laptop Backpack Intern 1  (Blue)  </h4></a>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>&#8377;1000.00</p>
+            </div> 
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="product9-details.html"><img src="img/product-9/product-91.jpeg"></a>
+                <a href="product9-details.html"></a> <h4>HP Pavilion Core i7 11th Gen - (16 GB/1 TB SSD/Windows 10 Home) 14-dv0058TU Thin and Light Laptop  (14 inch, Natural Silver, 1.41 kg, With MS Office)</h4></a>
+                 <div class="rating">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="far fa-star"></i>
+                 </div>
+                 <p>&#8377;25,000.00</p>
+             </div> 
+            <div class="col-4">
+                <a href="product10-details.html"><img src="img/product-10/product-101.jpeg" width="200px" height="310px"></a>
+                <a href="product10-details.html"> <h4>boAt Stone 350 10 W Bluetooth Speaker  (Black, Mono Channel)</h4></a>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>&#8377;1499.00</p>
+            </div> 
+            <div class="col-4">
+                <a href="product11-details.html"><img src="img/product-11/product-111.jpeg" width="100%" height="310px"></a>
+              <a href="product11-details.html"><h4>Mi 5X 138.8 cm (55 inch) Ultra HD (4K) LED Smart Android TV with Dolby Atmos and Dolby Vision</h4></a>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>&#8377;47,999.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product12-details.html"><img src="img/product-12/product-121.png"width="30%" height="350"></a>
+                <a href="product12-details.html"><h4>realme GT NEO 2 (NEO Blue, 128 GB)  (8 GB RAM)</h4></a>
+                 <div class="rating">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                     <i class="far fa-star"></i>
+                 </div>
+                 <p>&#8377;31,999.00</p>
+             </div>
+            
+        </div>
+</div>
+<div class="page-btn">
+    <span><a href="Products.html" target="_blank"> <input type="button" value="1" style="width: 40px; height: 35px; background-color: tomato;"></a></span>
+    <a href="band.html"><button style="width: 40px; height: 35px;">2 </button></a>
+    <span>3</span>
+    <span>4</span>
+    <span>&#8594;</span>
+</div>
+    </div> 
+    <!------footer------------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+           
+        </div>
+        <hr>
+        <p class="Copyright"> Copyright 2022 - All Rights Reserved</p>
+    </div>
+</div>
+<!---------js for toggle menu------->
+    <script>
+        var MenuItems= document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px"
+        function menutoggle(){
+            if(MenuItems.style.maxHeight=="0px")
+            {
+                MenuItems.style.maxHeight="200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight="0px";
+            }
+        }
+    </script>
+
+
+
+</body>
+</html>

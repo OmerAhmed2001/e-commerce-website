@@ -1,0 +1,126 @@
+/* login form */
+#Indicators{
+    width: 100px;
+    border: none;
+    background: #141312;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(80px);
+    /* transition: transform 0.5s; */
+}
+.form-containers{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 40px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    padding: 40px 20px;
+}
+/* add to cart */
+.tables{
+    width:130%;
+
+    border-collapse: collapse;
+    margin-left: 3%;
+    /* margin-right: 10%; */
+    text-align: left;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ff523b;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: #ff523b;
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 500px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+.icount
+{
+    text-align: center;
+}
+.itotal
+{
+    text-align: center;
+}
+/* cart page */
+#row
+{
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+.col-11
+{
+    padding-right: 27%;
+}
+.col-12
+{
+    padding-left: 25%;
+}
+/* customer detail form */
+#fm
+{
+ 
+ border: 1px solid black;
+
+
+}
+#fmm{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 7px;
+}
+.fn{
+    padding-top: 10px;
+}
+.tt{
+    padding-left: 40%;
+}
+.as{
+    width: 17px;
+}
+.place{
+    padding-left: 60px;
+}
+#pbtn{
+    width: 80%;
+    
+}
